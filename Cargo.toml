@@ -1,0 +1,15 @@
+[package]
+name = "monkey-rust"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+
+# win, i (dad) put these here to put clippy into super-annoying
+# mode, becuase it's helpful for learning rust and its idioms
+# you can delete these, if they bother you
+[lints.clippy]
+pedantic = "warn"
+nursery = "warn"
